@@ -25,13 +25,13 @@ Please report errors directly to my email: <a href="mailto:pascalvallaster@gmail
 
 ### Download:
 
-Download with `pip`:
+Download with `git`:
 
 ```term
-pip install stringpath
+https://github.com/PascalVallaster/stringpath.git
 ```
 
-or download the `Source Distribution` and, or `Built Distribution` under `Download Files`.
+or download the `ZIP` file.
 
 ### Install dependencies:
 
@@ -73,14 +73,4 @@ print("'cd' into a different location")
 cd = input(cwd + ">")
 cwd = stringpath.change_directory(cwd, cd)
 subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, cwd=cwd)
-```
-
-
----
-
-
-## Uninstall
-
-```term
-pip uninstall stringpath
 ```
