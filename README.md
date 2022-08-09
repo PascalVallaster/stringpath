@@ -12,8 +12,8 @@ Stringpath for treating a string as a path
 ## About stringpath
 
 <p align="center">
-**stringpath** is a python script for simulating the 'cd' command on a string that contains a path.
- </p>
+<strong>stringpath</strong> is a python script for simulating the 'cd' command on a string that contains a path.
+</p>
 
 <p style="color:orange" align="center">
 Please report errors directly to my email: <a href="mailto:pascalvallaster@gmail.com?subject=Issue/Bug">pascalvallaster@gmail.com</a>
